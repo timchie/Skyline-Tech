@@ -1,0 +1,39 @@
+
+.table-main{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    
+}
+ 
+table{
+    margin-top: 30px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    padding: 15px;
+    border: 1px solid #8cb0d3;
+
+}
+th{
+    background-color: #6a6abe;
+    color: #fff;
+}
+
+caption{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.299);
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+tr:hover{
+    background-color: #6a6abe;
+    color: #fff;
+}
